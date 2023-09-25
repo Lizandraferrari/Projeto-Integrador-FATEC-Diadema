@@ -11,5 +11,5 @@ Ingrid Helena de Souza;<br>
 Lizandra de Jesus Ferrari;<br>
 Paulo Modesto Braga Sobrinho.
 <br><br>
-  Projeto sendo desenvolvido com seus conteúdos endereçados <a href = ""> aqui, em formato de arquivo de texto</a>, contendo as informações sobre o projeto e o desenvolvimento do mesmo.
+  Projeto sendo desenvolvido com seus conteúdos endereçados  aqui, em formato de arquivo de texto, contendo as informações sobre o projeto e o desenvolvimento do mesmo.
 </p>
