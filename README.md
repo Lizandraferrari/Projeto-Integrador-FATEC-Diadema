@@ -1,8 +1,8 @@
 # Projeto-Integrador-FATEC-Diadema
-<p>
-Desenvolvimento de software multiplataforma. 1º semestre - Fatec de Diadema
+
+<h3>Desenvolvimento de software multiplataforma. 1º semestre - Fatec de Diadema</h3>
 <br><br>
-Realizado por:
+<p>Realizado por:
 <br>
 Alex da Silva Bezerra;
 Daniel de Azevedo Cordeiro;
@@ -11,4 +11,4 @@ Ingrid Helena de Souza;
 Lizandra de Jesus Ferrari;
 Paulo Modesto Braga Sobrinho.
 <br><br>
-  Projeto sendo desenvolvido com seus conteúdos no 
+  Projeto sendo desenvolvido com seus conteúdos endereçados <a href = ""> aqui, em formato de arquivo de texto</a>, contendo as informações sobre o projeto e o desenvolvimento do mesmo.
