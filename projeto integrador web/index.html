@@ -9,45 +9,74 @@
         margin-bottom: 15px;
         display: flex;
         text-align: center;
-        flex-direction: row;
         justify-content: center;
         align-items: center;
-        
     }
     .cabeca{
-        background-color: blueviolet;
+        background-color: #8FD98F;
+        margin-bottom: 1%;
+        
     }
+    .carousel-caption{
+        background: #01010198;
+    }
+   
 </style>
 </head>
 <body>
+<!--O gradient do globo;
+#1DB5CD
+#147392
+#1B4C9B
+#0E6DC4
+
+Cor das setas: 
+#8FD98F
+
+Borda das setas:
+#B1E6B1
+
+Cor do quadrado do meio e o nome:
+#70B670-->
 <script>
     $('.carrossel').carousel({
   intervalo: 2000
 })
-
 </script>
-y67tguhbgt86tghuy7huy8uhji8nuiojkhuionhjkijuoimojdicators" data-slide-to="0" class="active"></li>
+<nav class="navbar centro cabeca">
+    <h1>
+        Descarte de resíduos texteis
+    </h1>
+</nav>
+<br>
+<div class ="container centro">
+    <div class = "row">
+        <div class = "col-7">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                   </ol>
+                  <!--#010101C0-->
                   <div class="carousel-inner"><!-- 390 x 265-->
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="img/atacama.png">
-                        <div class="carousel-caption">
+                        <div class="carousel-caption misterio">
                             <h5>Imagem do deserto do atacama no Chile. </h5>
                             <p>Foto retirada da reportagem <a href="https://www.bbc.com/portuguese/internacional-60144656"  target="_blank">neste link.</a></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                       <img class="d-block w-100" src="img/retalho.png" >
-                      <div class="carousel-caption">
+                      <div class="carousel-caption misterio">
                       <h5>Imagem das caçadoras de retalho no Brás.</h5>
                       <p>Foto retirada da reportagem <a href="https://tab.uol.com.br/noticias/redacao/2022/07/13/cacadoras-recolhem-retalhos-no-bras-para-fazer-roupas-novas-e-bonecas.htm" target="_blank">neste link.</a></p>
                     </div>
                     </div>
                     <div class="carousel-item">
                       <img class="d-block w-100" src="img/grafico.png">
-                      <div class="carousel-caption">
+                      <div class="carousel-caption misterio">
                       <h5>Grafico sobre a quantidade de lixo gerado. </h5>
                       <p>Foto retirada da reportagem <a href=" https://www.wribrasil.org.br/noticias/os-impactos-economicos-e-sociais-da-fast-fashion" target="_blank">neste link.</a></p>
                     </div>
@@ -63,7 +92,7 @@ y67tguhbgt86tghuy7huy8uhji8nuiojkhuionhjkijuoimojdicators" data-slide-to="0" cla
                   </a>
                 </div>    
         </div>
-        <div class ="col-5 centro">
+        <div class ="col-5 centro ">
             <p>
                 O impacto que o descarte têxtil ocasiona no mundo é grande, e não se tem um destino
                 correto, principalmente nas grandes cidades, como na região central de São Paulo.
@@ -71,10 +100,9 @@ y67tguhbgt86tghuy7huy8uhji8nuiojkhuionhjkijuoimojdicators" data-slide-to="0" cla
                 ambiente, sendo feita pelos comerciantes, por empresas têxteis e pelo descarte
                 doméstico. </br> A proposta do nosso projeto é axuliar que esse lixo tenha um final menos nocivo ao meio ambiente.
                 <br><br>
-                <a href="seila.html">Locais de coleta?</a>
+                <a href="seila.html">Locais de coleta</a>
                 <br><br>
-                <a href="seila.html">Sobre a reciclagem?</a>
-
+                <a href="seila.html">Sobre a reciclagem</a>
             </p>
         </div>
     </div>
@@ -84,9 +112,9 @@ y67tguhbgt86tghuy7huy8uhji8nuiojkhuionhjkijuoimojdicators" data-slide-to="0" cla
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <p class="col-md-4 mb-0 text-muted">2023 Projeto Integrador, Fatec</p>
     
-        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-          <img src="img/logo.svg" width="70" height="52"></a>
-       
+        <a href="/" class="col-md-4 d-flex align-items-center">
+          <img src="img/logo.svg" width="50" height="50"></a>
+         
     
         <ul class="nav col-md-4 justify-content-end">
           <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
