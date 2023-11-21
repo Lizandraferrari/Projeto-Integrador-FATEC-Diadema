@@ -9,7 +9,7 @@
     background-color: #8FD98F;
     margin-bottom: 1%;
     color: white;
-    /*fonte q o paulo modesto vai manda*/
+    font-family: Oregano-Regular;
 
 }
 .carousel-caption{
@@ -18,10 +18,4 @@
 @font-face{
     font-family: "Oregano-Regular";
     src: url("img/Oregano-Regular.ttf")
-}
-h1{
-    font-family: Oregano-Regular;
-}
-.nav-item{
-    margin:0 1%;
 }
