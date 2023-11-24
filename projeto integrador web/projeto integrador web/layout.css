@@ -1,0 +1,88 @@
+.centro{
+    margin-bottom: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.cabeca{
+    background-color: #8FD98F;
+    margin-bottom: 1%;
+    color: white;
+    font-family: Oregano-Regular;
+
+}
+.carousel-caption{
+    background: #01010198;
+}
+@font-face{
+    font-family: "Oregano-Regular";
+    src: url("img/Oregano-Regular.ttf")
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    font-family: 'Oregano', sans-serif;
+
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .caixa{
+    margin: 0;
+    background-color: #8FD98F;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .imagem {
+    background-size: 25px;
+    margin: 10%;
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body {
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+  }
+  .tom{
+    color:#147392;
+  }
+  .espacoinvisivel{
+    color:#8FD98F;
+  }
