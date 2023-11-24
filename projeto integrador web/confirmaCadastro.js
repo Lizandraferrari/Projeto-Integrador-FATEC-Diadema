@@ -10,8 +10,7 @@ function login(){
             return banco
         }else{
             if(nome === banco[i].nome && senha === banco[i].senha){
-                window.open("index.html")//Necessario substituir o caminho do site, pois isso foi apenas para testar
-                return banco
+                window.open("index.html")
             }
         }
     }

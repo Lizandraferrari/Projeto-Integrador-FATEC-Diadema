@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Noto+Sans:wght@100&display=swap');
 
 body {
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    background-color: #584fd8;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  font-family: 'Oregano', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
   .Imagem {
     background-size: 25px;
@@ -24,7 +24,7 @@ body {
   
   .login-container {
     margin: 0;
-    background-color: #29a143;
+    background-color: #8FD98F;
     padding: 80px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -55,7 +55,7 @@ body {
   button {
     padding: 8px 20px;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
